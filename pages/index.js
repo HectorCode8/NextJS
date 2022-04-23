@@ -1,7 +1,10 @@
-
+import Link from 'next/link'
 
 export default function Home() {
   return (
-    <p>Holaaaa</p>
+   <div>
+     <Link href="/chanchitos">Ir a Chanchitos</Link>
+      <p>Holaaaa</p>
+   </div>
   )
 }
